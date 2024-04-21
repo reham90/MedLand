@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-family: "rb-light";
+    src: url("../webfonts/RB\ Font/rb-light.ttf") format("truetype") , url("../webfonts/RB\ Font/rb-light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RB_Font";
+    src: url("../webfonts/RB\ Font/RB_Font.ttf") format("truetype") , url("../webfonts/RB\ Font/RB_Font.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RB-Bold";
+    src: url("../webfonts/RB\ Font/RB-Bold.ttf") format("truetype") , url("../webfonts/RB\ Font/RB-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
