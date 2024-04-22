@@ -15,6 +15,7 @@ body {
 }
 .body-bg-1{
 	position: relative;
+	height: 100vh;
 }
 .body-bg-1:before{
 	background-image: url(../images/bg-1.png);
@@ -245,14 +246,24 @@ inset-inline-end: 34px;
 	background-color: #fff;
 	position: relative;
 	width: 100%;
-    
+    height: 100vh;
    
 }
 .body-bg-2:after{
-	content: url(../images/bg-2.png);
-	position: absolute;
+	background-image: url(../images/bg-2.png);
+    position: absolute;
+   bottom: 0;
 	top:0;
-	inset-inline-end: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+	height: 100%;
+	
+    content: "";
+   
+    background-size: contain;
+   background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 html[dir="ltr"] .body-bg-2:after{
 	transform: scaleX(-1);
@@ -272,6 +283,9 @@ html[dir="ltr"] .body-bg-2:after{
 .language-link-2:hover{
 	background-color: #000;
 	color: #fff;
+}
+.color-black{
+	color: #000;
 }
 .top-header-2{
 	position: relative;
@@ -374,6 +388,7 @@ select {
 @media (max-width: 991px) {
 	.body-bg-1{
 		background-color: #eb908b;
+		height: auto;
 	}
 	html[dir="ltr"] .body-bg-1{
 		background-color: #eb908b;
@@ -401,6 +416,7 @@ select {
 	}
 	.body-bg-2:after{
 		content: "";
+		background-image: none;
 	}
 	.language-link-2{
 		width: 80px;
@@ -428,7 +444,7 @@ select {
 	}
 	.body-bg-3{
 		background-position: 80%;
-		height: auto;
+	
 	}
 	.top-header-3 .logo-bar{
 		flex-direction: row;
