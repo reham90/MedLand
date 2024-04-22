@@ -388,10 +388,9 @@ select {
 @media (max-width: 991px) {
 	.body-bg-1{
 		background-color: #eb908b;
-		height: auto;
+		
 	}
-	html[dir="ltr"] .body-bg-1{
-		background-color: #eb908b;
+	.body-bg-1:before{
 		background-image: none;
 	}
 	.logo-bar{
@@ -411,7 +410,7 @@ select {
 		background-image: url(../images/bg-22.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: auto;
+		
 		
 	}
 	.body-bg-2:after{
@@ -497,7 +496,7 @@ select {
 	}
 	.body-bg-3{
 		background-position: center;
-		height: auto;
+		
 	}
 	
 }
@@ -546,15 +545,18 @@ select {
     .form-section-content {
         width: 350px;
     }
+	
 	.body-bg-1:before{
-		background-position: center;
+		background-position: center 0;
+		background-image: url(../images/bg-1.png);
 	}
 	
-	.body-bg-2:after{
-		content: url(../images/bg-2.png);
-	}
+	
 	.body-bg-2{
 		background-image: none;
+	}
+	.body-bg-2:after{
+		background-image: url(../images/bg-2.png);
 	}
 	.form-section-2{
 		padding: 0 0 50px;
