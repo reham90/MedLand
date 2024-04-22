@@ -13,6 +13,18 @@ body {
 	position: relative;
 	
 }
+.success-center{
+	display: flex;
+    height: 100%;
+    align-items: center;
+}
+.success-center .form-section{
+	padding: 0;
+	margin-top: -15%;
+}
+.pb-0{
+	padding-bottom: 0;
+}
 .body-bg-1{
 	position: relative;
 	height: 100vh;
@@ -390,6 +402,12 @@ select {
 		background-color: #eb908b;
 		
 	}
+	.success-center{
+		display: block;
+	}
+	.pb-0{
+		padding-bottom: 80px !important;
+	}
 	.body-bg-1:before{
 		background-image: none;
 	}
@@ -551,7 +569,9 @@ select {
 		background-image: url(../images/bg-1.png);
 	}
 	
-	
+	.success-center .form-section{
+		margin-top: 0;
+	}
 	.body-bg-2{
 		background-image: none;
 	}
