@@ -266,7 +266,7 @@ html[dir="ltr"] .body-bg-2:after{
 	background-color: rgb(237, 70, 89);
 	width: 100px;
 	height: 30px;
-	border-radius: 10px;
+	border-radius: 15px;
 	transition: 0.5s;
 }
 .language-link-2:hover{
@@ -330,7 +330,7 @@ html[dir="ltr"] .form-section-2{
 	background-image: url(../images/bg-3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
 }
 .language-link-3{
 	background-color: rgba(255,255,255,0.2);
@@ -343,6 +343,16 @@ html[dir="ltr"] .form-section-2{
 }
 .send-btn-3{
 	margin: 0 auto;
+}
+.success-img{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 20px;
+	padding-inline-start: 30px;
+}
+html[dir="ltr"] .success-img {
+    padding-inline-start: 0;
+    padding-inline-end: 30px;
 }
 
 /* css for index-3 */
@@ -395,6 +405,7 @@ select {
 	.language-link-2{
 		width: 80px;
 		height: 24px;
+		border-radius: 12px;
 		font-size: 14px;
 	}
 	.top-header-2 .logo-bar{
@@ -417,6 +428,7 @@ select {
 	}
 	.body-bg-3{
 		background-position: 80%;
+		height: auto;
 	}
 	.top-header-3 .logo-bar{
 		flex-direction: row;
@@ -469,6 +481,7 @@ select {
 	}
 	.body-bg-3{
 		background-position: center;
+		height: auto;
 	}
 	
 }
